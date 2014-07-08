@@ -3,4 +3,4 @@
     email = rblack@austincc.edu
 [alias]
     co = checkout
-    st status --short --branch
+    st = status --short --branch
