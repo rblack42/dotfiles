@@ -1,6 +1,4 @@
 [user]
-    name = Roie Black
-    email = rblack@austincc.edu
-[alias]
-    co = checkout
-    st = status --short --branch
+        name = Roie Black
+        email = rblack@austincc.edu
+
