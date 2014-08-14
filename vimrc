@@ -25,7 +25,7 @@ set smartindent
 
 autocmd FileType * set tabstop=4
 autocmd FileType * set softtabstop=4
-autocmd FileType * set shiftwidth=4a
+autocmd FileType * set shiftwidth=4
 
 " Highlight trailing whitespace and long lines
 highlight ExtraWhitespace ctermbg=red guibg=red
