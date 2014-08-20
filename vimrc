@@ -31,3 +31,5 @@ autocmd FileType * set shiftwidth=4
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+" paragraph reformatting
+map q gq}
