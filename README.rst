@@ -1,7 +1,10 @@
 My dotfiles
 ###########
 
-I keep a master copy of my system dotfiles here, and clone this repository onto all machines I set up. I create links to these files from the clne directory to their actual file names on that system. (Note that this only works on Mac/Linux systems at present.)
+I keep a master copy of my system dotfiles here, and clone this repository onto
+all machines I set up. I create links to these files from the clone directory
+to their actual file names on that system. (Note that this only works on
+Mac/Linux systems at present.)
 
 Here is the process I use:
 
