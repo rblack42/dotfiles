@@ -1,17 +1,19 @@
-Managing Ubuntu GUI
-###################
+My dotfiles
+###########
 
-Dotfiles
-********
+I keep a master copy of my system dotfiles here, and clone this repository onto all machines I set up. I create links to these files from the clne directory to their actual file names on that system. (Note that this only works on Mac/Linux systems at present.)
 
-Here is the process used to create a new repo on GitHub for my Linux dotfiles:
+Here is the process I use:
 
 ..  code-block:: text
 
-    mkdir -p /home/rblack/bin/dotfiles
-    cd /home/rblack/bin/dotfiles
-    touch README.rst
-    git commit -m "first commit"
-    git remote add origin https://github.com/rblack42/dotfiles.git
-    git push -u origin master
+    cd ~/_lib
+    git clone https://github.com/rblack42/dotfiles
+    cd dotfiles
+    ln -s vimrc ~/.vimrc
+    ln -s bashrc ~/.bashrc
+    ln -s gitconfig ~/.gitconfig
+    ln -s gitignore_global ~/.gitignore_global
+    ln -s bash_aliases ~/.bash_aliases
+
 
