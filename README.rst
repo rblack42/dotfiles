@@ -13,10 +13,10 @@ Here is the process I use:
     cd ~/_lib
     git clone https://github.com/rblack42/dotfiles
     cd dotfiles
-    ln -s vimrc ~/.vimrc
-    ln -s bashrc ~/.bashrc
-    ln -s gitconfig ~/.gitconfig
-    ln -s gitignore_global ~/.gitignore_global
-    ln -s bash_aliases ~/.bash_aliases
+    ln -s ~/_lib/dotfiles/\vimrc ~/.vimrc
+    ln -s ~/_lib/dotfiles/\bashrc ~/.bashrc
+    ln -s ~/_lib/dotfiles/\gitconfig ~/.gitconfig
+    ln -s ~/_lib/dotfiles/\gitignore_global ~/.gitignore_global
+    ln -s ~/_lib/dotfiles/\bash_aliases ~/.bash_aliases
 
 
