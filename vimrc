@@ -3,21 +3,24 @@ filetype plugin indent off
 
 " Vundle config
 set rtp+=~/.vim/plugin/Vundle.vim
-call vundle#begin()
+call vundle#rc()
 
-call vundle#end()
+Bundle 'gmarik/vundle'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'scrooloose/nertdree'
+
+filetype plugin indent on   " Turn on filetype detection
 "------------------------------------------------------------------------
 map <C-n> :NERDTreeToggle<CR>
 
 "------------------------------------------------------------------------
 syntax enable               " Turn on syntax highlighting
-set background=light
+set background=dark
 colorscheme solarized
 "------------------------------------------------------------------------
 scriptencoding utf-8
 set encoding=utf-8
 
-filetype plugin indent on   " Turn on filetype detection
 
 " Searching controls -----------------------------------------------------
 set ignorecase              " Case-insensitive searching.
