@@ -2,12 +2,12 @@ set nocompatible
 filetype plugin indent off
 
 " Vundle config
-set rtp+=~/.vim/plugin/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'scrooloose/nertdree'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on   " Turn on filetype detection
 "------------------------------------------------------------------------
@@ -15,7 +15,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 "------------------------------------------------------------------------
 syntax enable               " Turn on syntax highlighting
-set background=dark
+set background=light
 colorscheme solarized
 "------------------------------------------------------------------------
 scriptencoding utf-8
