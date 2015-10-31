@@ -1,20 +1,22 @@
 set nocompatible
-filetype off
+filetype plugin indent off
 
 " Vundle config
 set rtp+=~/.vim/plugin/Vundle.vim
 call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
 
 call vundle#end()
 "------------------------------------------------------------------------
 map <C-n> :NERDTreeToggle<CR>
 
 "------------------------------------------------------------------------
+syntax enable               " Turn on syntax highlighting
+set backbround=light
+colorscheme solarized
+"------------------------------------------------------------------------
 scriptencoding utf-8
 set encoding=utf-8
 
-syntax enable               " Turn on syntax highlighting
 filetype plugin indent on   " Turn on filetype detection
 
 " Searching controls -----------------------------------------------------
