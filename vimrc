@@ -1,6 +1,16 @@
 set nocompatible
 filetype off
 
+" Vundle config
+set rtp+=~/.vim/plugin/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
+call vundle#end()
+"------------------------------------------------------------------------
+map <C-n> :NERDTreeToggle<CR>
+
+"------------------------------------------------------------------------
 scriptencoding utf-8
 set encoding=utf-8
 
