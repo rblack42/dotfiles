@@ -11,7 +11,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 "------------------------------------------------------------------------
 syntax enable               " Turn on syntax highlighting
-set backbround=light
+set background=light
 colorscheme solarized
 "------------------------------------------------------------------------
 scriptencoding utf-8
