@@ -13,4 +13,6 @@ alias aptu='sudo apt-get update && sudo apt-get upgrade'
 alias f='open .'
 alias c='clear'
 alias v='gvim 2>/dev/null'
+
 alias workon='source _venv/bin/activate'
+alias venv=`virtualenv _vent && workon`
