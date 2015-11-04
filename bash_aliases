@@ -15,4 +15,4 @@ alias c='clear'
 alias v='gvim 2>/dev/null'
 
 alias workon='source _venv/bin/activate'
-alias venv=`virtualenv _vent && workon`
+alias venv='virtualenv _venv && workon`
