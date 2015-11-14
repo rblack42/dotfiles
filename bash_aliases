@@ -15,4 +15,7 @@ alias c='clear'
 alias v='gvim 2>/dev/null'
 
 alias workon='source _venv/bin/activate'
-alias venv='virtualenv _venv && workon`
+alias venv='virtualenv _venv && workon'
+
+alias n5ujh='ssh n5ujh@65.111.55.5'
+
