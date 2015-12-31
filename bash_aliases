@@ -18,4 +18,5 @@ alias workon='source _venv/bin/activate'
 alias venv='virtualenv _venv && workon'
 
 alias ke5ctx='ssh n5ujh@66.196.13.25'
+alias n5ujh='ssh n5ujh@65.111.55.5'
 
