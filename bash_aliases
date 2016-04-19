@@ -1,22 +1,9 @@
 alias l='ls -lh --color'
 alias ll='ls -lha --color'
 
-alias g='git'
-alias gs='git status -uall'
-alias gpl='git pull'
-alias gph='git push'
-alias gpom='git push origin master'
-
-alias apti='sudo apt-get install'
-alias aptu='sudo apt-get update && sudo apt-get upgrade'
-
-alias f='open .'
-alias c='clear'
-alias v='gvim 2>/dev/null'
-
 alias workon='source _venv/bin/activate'
 alias venv='virtualenv _venv && workon'
 
-alias ke5ctx='ssh n5ujh@66.196.13.25'
-alias n5ujh='ssh n5ujh@65.111.55.5'
+alias k5ctx='ssh n5ujh@66.196.13.25'
+alias ke5rcs='ssh n5ujh@65.111.55.5'
 
