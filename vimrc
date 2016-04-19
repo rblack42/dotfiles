@@ -7,17 +7,9 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'scrooloose/nerdtree'
-Bundle 'pairofducks/ansible-vim'
-Bundle 'tpope/vim-fugitive'
+Bundle 'Rykka/riv'
 
 filetype plugin indent on   " Turn on filetype detection
-"------------------------------------------------------------------------
-map <C-n> :NERDTreeToggle<CR>
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
 "------------------------------------------------------------------------
 syntax enable               " Turn on syntax highlighting
 set background=light
