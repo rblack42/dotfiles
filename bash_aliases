@@ -6,4 +6,4 @@ alias venv='virtualenv _venv && workon'
 
 alias k5ctx='ssh n5ujh@66.196.13.25'
 alias ke5rcs='ssh n5ujh@65.111.55.5'
-alias co-pylit='ssk rblack@www.co-pylit.org'
+alias co-pylit='ssh rblack@www.co-pylit.org'
