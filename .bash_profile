@@ -18,4 +18,4 @@ prompt() {
 
 export PATH="$HOME/bin:$PATH"
 
-PS=1'\[\e[1;33m\]\u@\h \w ->\n\[\e[1;36m\] \@ \d\$\[\e[m\] '
+PS1='\[\e[1;33m\]\u@\h \w ->\n\[\e[1;36m\] \@ \d\$\[\e[m\] '

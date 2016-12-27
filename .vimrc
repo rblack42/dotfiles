@@ -24,8 +24,5 @@ set shiftwidth=4	" 4 spaces for indents
 set noerrorbells	" turn off error bells
 set visualbell		" turn on visual bell
 
-" remapped keys
-inoremap {	{}>Left>
-inoremap {<CR>	{<CR>}<esc>O
-inoremap {{	{
-inoremap {}	{}
+map q gq}
+
