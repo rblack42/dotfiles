@@ -19,3 +19,5 @@ prompt() {
 export PATH="$HOME/bin:$PATH"
 
 PS1='\[\e[1;33m\]\u@\h \w ->\n\[\e[1;36m\] \@ \d\$\[\e[m\] '
+
+export CPPUTEST_HOME=/usr/local/Cellar/cpputest/3.8
