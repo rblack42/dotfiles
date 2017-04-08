@@ -13,6 +13,10 @@
 *.tar
 *.zip
 
+# Vim
+*~
+*.swp
+
 # Logs and databases
 *.log
 *.sqlite
