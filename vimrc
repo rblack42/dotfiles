@@ -1,9 +1,11 @@
 set nocompatible
 filetype off
+" set runtime path to vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin VundleVim/Vundle.vim
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()
 filetype plugin indent on
 
@@ -33,6 +35,13 @@ set tabstop=4		" 4 spaces for tabs
 set shiftwidth=4	" 4 spaces for indents
 set noerrorbells	" turn off error bells
 set visualbell		" turn on visual bell
+
+nnoremap " ""<left>
+nnoremap { {}<left>
+nnoremap ( ()<left>
+nnoremap [ []<left>
+
+nmap<f12> :NERDTreeToggle<cr>
 
 map q gq}
 
