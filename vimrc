@@ -1,3 +1,12 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin VundleVim/Vundle.vim
+Plugin 'editorconfig/editorconfig-vim'
+call vundle#end()
+filetype plugin indent on
+
 syntax on		" enable syntax highlighting
 set cursorline		" highlight current line
 set ruler		" show number line in bar
@@ -12,6 +21,7 @@ set scrolloff=5		" show at least 5 lines above/below
 filetype on		" enable filetype detection
 filetype indent on	" filetype specific indent
 filetype plugin on	" enable filetype specific plugins
+
 "colorscheme solarized
 let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=235 guibg=#001D2F
