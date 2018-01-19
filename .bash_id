@@ -2,5 +2,5 @@ export REALNAME="Roie R. Black"
 export EMAIL="rblack@austincc.edu"
 export GITHUB_ID="rblack42"
 export DOCKER_ID="rblack42"
-export PUBLIC_KEY="~/.ssh/id_rsa.pub
+export PUBLIC_KEY="~/.ssh/id_rsa.pub"
 export GPGKEY="~/.gpg/public_key"
