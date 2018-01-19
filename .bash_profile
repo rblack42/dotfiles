@@ -1,4 +1,4 @@
-for file in ~/.{bashrc,bash_aliases}; do
+for file in ~/.{bashrc,bash_aliases,bash_id}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
